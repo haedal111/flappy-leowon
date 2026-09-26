@@ -1,16 +1,1 @@
-<audio id="bg-music" loop>
-  <source src="music.mp3" type="audio/mpeg">
-  Trình duyệt của bạn không hỗ trợ thẻ audio.
-</audio>
 
-<!-- Nút bấm kích hoạt nhạc (bắt buộc vì trình duyệt chặn tự động phát) -->
-<button onclick="playMusic()" style="position: fixed; bottom: 20px; right: 20px; z-index: 999; padding: 10px;">
-  🎵 Bật Nhạc
-</button>
-
-<script>
-function playMusic() {
-  var audio = document.getElementById("bg-music");
-  audio.play();
-}
-</script>
